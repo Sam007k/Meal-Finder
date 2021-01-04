@@ -230,4 +230,32 @@ body {
     width: 300px;
   }
 }
+
+@media (max-width: 400px) {
+  .container .container {
+    width: 100%;
+    max-width: 400px;
+  }
+  .container input[type="text"] {
+    width: 100%;
+  }
+  .container .meals {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .container .meal {
+    height: 300px;
+    width: 300px;
+  }
+  .container .single-meal img {
+    width: 300px;
+  }
+  .container .single-meal .main {
+    max-width: 450px;
+    overflow: hidden;
+  }
+  .container .single-meal .main p {
+    margin: 0 30px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

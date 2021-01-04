@@ -204,6 +204,50 @@ body{
             }
          }
 
+         @media(max-width:400px) {
+
+            .container{
+                // display: flex;
+                width: 100%;
+                max-width: 400px;
+                // flex-direction: column;
+                // align-items: center;
+                // justify-content: center;
+                // overflow: hidden;
+            }
+
+            input[type="text"] {
+                width: 100%;
+            }
+            .meals{
+                grid-template-columns: 1fr;
+            }
+    
+            .meal{
+                height: 300px;
+                width: 300px;
+            }
+
+            .single-meal{
+               
+
+                img{
+                    width: 300px;
+                }           
+                
+                .main{                    
+                    max-width: 450px;
+                    overflow: hidden;
+
+                    p{                       
+                        margin: 0 30px;                
+                    }
+                }
+                
+                
+            }
+         }
+
     
 }
 
